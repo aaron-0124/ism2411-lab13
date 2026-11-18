@@ -1,3 +1,14 @@
+# Self-Assessment
+# 1) A boolean filter selects rows that meet a certain condition.
+# For example, it can show only sales from the South region.
+
+# 2) df["revenue"] gives a Series, while df[["revenue"]]
+# gives a DataFrame. This matters when working with
+# multiple columns or functions that need a DataFrame.
+
+# 3) I would choose pandas because it makes working with
+# large amounts of data faster and easier than Excel.
+
 import pandas as pd
 
 

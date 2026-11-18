@@ -41,6 +41,7 @@ print(df.head())
 print(df["per_unit"].mean())
 
 
-# Exercise 6: 
+# Exercise 6:
+print("\nExercise 6:")
 print(df["region"].unique())
 print(df["region"].value_counts())

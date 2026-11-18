@@ -45,3 +45,16 @@ print(df["per_unit"].mean())
 print("\nExercise 6:")
 print(df["region"].unique())
 print(df["region"].value_counts())
+
+# Exercise 7:
+selected = df[["region", "product", "revenue"]]
+
+print("\nExercise 7:")
+print(selected.shape)
+
+
+# Exercise 8: 
+df.to_csv("data/explored.csv", index=False)
+
+print("\nExercise 8:")
+print("File saved successfully.")
